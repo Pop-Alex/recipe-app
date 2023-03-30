@@ -1,0 +1,36 @@
+.home{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.home-title{
+    justify-content: flex-start;
+    width: 85%;
+    margin-bottom: 5px;
+}
+.cuisine{
+    width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+
+}
+.cuisine-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    
+}
+.cuisine-content img{
+    object-fit: cover;
+    height: 250px;
+    border-radius: 15px;
+    border :2px solid gold
+}
